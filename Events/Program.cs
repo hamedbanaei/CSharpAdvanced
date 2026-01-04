@@ -93,7 +93,7 @@ P1.ShowInfo();
 
 
 // ********** ********** ********** ********** **********
-// Learn04: How to get read of object?!
+// Learn04: How to get rid of object?!
 // ********** ********** ********** ********** **********
 
 //using Events.Learn04;
@@ -117,7 +117,7 @@ P1.ShowInfo();
 //P1.ShowInfo();
 
 // ********** ********** ********** ********** **********
-// / Learn04: How to get read of object?!
+// / Learn04: How to get rid of object?!
 // ********** ********** ********** ********** **********
 
 
