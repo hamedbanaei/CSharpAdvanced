@@ -15,7 +15,7 @@ public class AgeChangeEventArgs : System.EventArgs
 	}
 }
 
-public delegate void AgeChangedHandler(object sender, AgeChangeEventArgs e);
+public delegate void AgeChangeHandler(object sender, AgeChangeEventArgs e);
 
 public class Person : System.Object
 {
@@ -46,7 +46,7 @@ public class Person : System.Object
 
 	public string FullName { get; set; }
 
-	public event AgeChangedHandler BeforeAgeChanged; // AgeChanging would be better!
+	public event AgeChangeHandler BeforeAgeChanged; // AgeChanging would be better!
 	protected virtual void OnBeforeAgeChanged(AgeChangeEventArgs e)
 	{
 		if (BeforeAgeChanged != null)
@@ -55,7 +55,7 @@ public class Person : System.Object
 		}
 	}
 
-	public event AgeChangedHandler AfterAgeChanged; // AgeChanged would be better!
+	public event AgeChangeHandler AfterAgeChanged; // AgeChanged would be better!
 	protected virtual void OnAfterAgeChanged(AgeChangeEventArgs e)
 	{
 		if (AfterAgeChanged != null)

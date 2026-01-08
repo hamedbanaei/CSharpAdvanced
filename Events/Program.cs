@@ -196,9 +196,17 @@ P1.ShowInfo();
 //P1.ShowInfo();
 //System.Console.WriteLine(System.Environment.NewLine);
 
-//P1.Age = -1;
+//P1.Age = 2584;
 //P1.ShowInfo();
 //System.Console.WriteLine(System.Environment.NewLine);
+
+//Person P2 = new Person
+//{
+//	Age = 43,
+//	FullName = "Ali Rezaei",
+//};
+//P2.Age = 2584;
+//P2.ShowInfo();
 
 // ********** ********** ********** ********** **********
 // / Learn06: Let programmer control the change flow
